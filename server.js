@@ -10,7 +10,7 @@ app.get('/data', (req, res) => {
     if(data.hasOwnProperty(word)) {
     res.send(`The word ${word} is in the Dictionary!`);
 }else{
-    res.send(`Word ${word} does not exist!`);
+    res.send(`The word ${word} does not exist!`);
 }
 
 });

@@ -19,12 +19,33 @@ body {
     align-items: center;
     background: grey;
     font-family: 'Righteous', cursive;
+    background-image: url("/WordGIF.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
-    color: blue;
+    color: Black;
     font-family: 'Righteous', cursive;
+    /*border: 4px dotted blue;*/
+    /*border-color: white;*/
+    letter-spacing: 2px;
+    font: black;
+
+}
+
+#search {
+    text-align: center;
+
+}
+
+
+#button {
+    background: black;
+    color: white;
+    background-size: auto;
 }
